@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Tutorial | Julian Dave Recato</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="csswhatever.css">
+</head>
+<body>
+    <div class="container">
+        <header id="top">
+            <h1>HTML & CSS Tutorial</h1>
+            <p class="tagline">A beginner-friendly guide to web development fundamentals</p>
+            <p class="presenter">Presented by Julian Dave Recato</p>
+        </header>
+
+        <div class="nav-links">
+            <a href="#what-is-html"><i class="fas fa-code"></i> What is HTML?</a>
+            <a href="#basic-structure"><i class="fas fa-cube"></i> Basic Structure</a>
+            <a href="#text-elements"><i class="fas fa-font"></i> Text Elements</a>
+            <a href="#links-images"><i class="fas fa-link"></i> Links & Images</a>
+            <a href="#lists"><i class="fas fa-list"></i> Lists</a>
+            <a href="#tables"><i class="fas fa-table"></i> Tables</a>
+            <a href="#forms"><i class="fas fa-edit"></i> Forms</a>
+        </div>
+
+        <div class="content-wrapper">
+            <main>
+                <section id="what-is-html">
+                    <h2>What is HTML?</h2>
+                    <p>HTML (HyperText Markup Language) is the standard markup language for creating web pages. It describes the structure of a web page and consists of a series of elements that tell the browser how to display content.</p>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-lightbulb"></i> Did You Know?</h4>
+                        <p>HTML was created by Tim Berners-Lee in 1991. The first version had just 18 elements, but modern HTML has over 140 elements!</p>
+                    </div>
+                </section>
+                
+                <section id="basic-structure">
+                    <h2>Basic HTML Structure</h2>
+                    <p>Every HTML document follows a basic structure. Here's a simple template:</p>
+                    
+                    <div class="code-example">
+                        <span class="tag">&lt;!DOCTYPE html&gt;</span><br>
+                        <span class="tag">&lt;html&gt;</span><br>
+                        <span class="tag">&lt;head&gt;</span><br>
+                        &nbsp;&nbsp;<span class="tag">&lt;title&gt;</span>Page Title<span class="tag">&lt;/title&gt;</span><br>
+                        <span class="tag">&lt;/head&gt;</span><br>
+                        <span class="tag">&lt;body&gt;</span><br>
+                        &nbsp;&nbsp;<span class="tag">&lt;h1&gt;</span>My First Heading<span class="tag">&lt;/h1&gt;</span><br>
+                        &nbsp;&nbsp;<span class="tag">&lt;p&gt;</span>My first paragraph.<span class="tag">&lt;/p&gt;</span><br>
+                        <span class="tag">&lt;/body&gt;</span><br>
+                        <span class="tag">&lt;/html&gt;</span>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-cogs"></i> HTML Structure Explained:</h4>
+                        <ul>
+                            <li><strong>&lt;!DOCTYPE html&gt;</strong> - Defines the document type and version of HTML</li>
+                            <li><strong>&lt;html&gt;</strong> - The root element of an HTML page</li>
+                            <li><strong>&lt;head&gt;</strong> - Contains meta information about the document</li>
+                            <li><strong>&lt;title&gt;</strong> - Specifies a title for the document</li>
+                            <li><strong>&lt;body&gt;</strong> - Contains the visible page content</li>
+                            <li><strong>&lt;h1&gt;</strong> - Defines a large heading</li>
+                            <li><strong>&lt;p&gt;</strong> - Defines a paragraph</li>
+                        </ul>
+                    </div>
+                </section>
+                
+                <section id="text-elements">
+                    <h2>Text Elements</h2>
+                    <p>HTML provides various elements for formatting text:</p>
+                    
+                    <div class="demo-box">
+                        <h1>This is a Heading 1</h1>
+                        <h2>This is a Heading 2</h2>
+                        <h3>This is a Heading 3</h3>
+                        <p>This is a normal paragraph. <strong>This is strong text.</strong> <em>This is emphasized text.</em></p>
+                        <p>You can also <mark>highlight text</mark>, <small>make text small</small>, or <del>strike through text</del>.</p>
+                    </div>
+                    
+                    <div class="code-example">
+                        <span class="tag">&lt;h1&gt;</span>This is a Heading 1<span class="tag">&lt;/h1&gt;</span><br>
+                        <span class="tag">&lt;h2&gt;</span>This is a Heading 2<span class="tag">&lt;/h2&gt;</span><br>
+                        <span class="tag">&lt;h3&gt;</span>This is a Heading 3<span class="tag">&lt;/h3&gt;</span><br>
+                        <span class="tag">&lt;p&gt;</span>This is a normal paragraph. <span class="tag">&lt;strong&gt;</span>This is strong text.<span class="tag">&lt;/strong&gt;</span> <span class="tag">&lt;em&gt;</span>This is emphasized text.<span class="tag">&lt;/em&gt;</span><span class="tag">&lt;/p&gt;</span><br>
+                        <span class="tag">&lt;p&gt;</span>You can also <span class="tag">&lt;mark&gt;</span>highlight text<span class="tag">&lt;/mark&gt;</span>, <span class="tag">&lt;small&gt;</span>make text small<span class="tag">&lt;/small&gt;</span>, or <span class="tag">&lt;del&gt;</span>strike through text<span class="tag">&lt;/del&gt;</span>.<span class="tag">&lt;/p&gt;</span>
+                    </div>
+                </section>
+                
+                <section id="links-images">
+                    <h2>Links and Images</h2>
+                    <p>Links and images are essential components of web pages:</p>
+                    
+                    <div class="demo-box">
+                        <p>Here's a link to <a href="https://www.google.com" target="_blank">Google</a> that opens in a new tab.</p>
+                        <p>Here's an image (placeholder):</p>
+                        <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+                    </div>
+                    
+                    <div class="code-example">
+                        <span class="tag">&lt;p&gt;</span>Here's a link to <span class="tag">&lt;a </span><span class="attribute">href=</span><span class="value">"https://www.google.com"</span> <span class="attribute">target=</span><span class="value">"_blank"</span><span class="tag">&gt;</span>Google<span class="tag">&lt;/a&gt;</span> that opens in a new tab.<span class="tag">&lt;/p&gt;</span><br>
+                        <span class="tag">&lt;p&gt;</span>Here's an image (placeholder):<span class="tag">&lt;/p&gt;</span><br>
+                        <span class="tag">&lt;img </span><span class="attribute">src=</span><span class="value">"https://via.placeholder.com/150"</span> <span class="attribute">alt=</span><span class="value">"Placeholder Image"</span><span class="tag">&gt;</span>
+                    </div>
+                </section>
+                
+                <section id="lists">
+                    <h2>Lists</h2>
+                    <p>HTML supports ordered (numbered) and unordered (bulleted) lists:</p>
+                    
+                    <div class="demo-box">
+                        <h4>Unordered List (Bulleted)</h4>
+                        <ul>
+                            <li>First item</li>
+                            <li>Second item</li>
+                            <li>Third item</li>
+                        </ul>
+                        
+                        <h4>Ordered List (Numbered)</h4>
+                        <ol>
+                            <li>First item</li>
+                            <li>Second item</li>
+                            <li>Third item</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="code-example">
+                        <span class="tag">&lt;h4&gt;</span>Unordered List (Bulleted)<span class="tag">&lt;/h4&gt;</span><br>
+                        <span class="tag">&lt;ul&gt;</span><br>
+                        &nbsp;&nbsp;<span class="tag">&lt;li&gt;</span>First item<span class="tag">&lt;/li&gt;</span><br>
+                        &nbsp;&nbsp;<span class="tag">&lt;li&gt;</span>Second item<span class="tag">&lt;/li&gt;</span><br>
+                        &nbsp;&nbsp;<span class="tag">&lt;li&gt;</span>Third item<span class="tag">&lt;/li&gt;</span><br>
+                        <span class="tag">&lt;/ul&gt;</span><br>
+                        <br>
+                        <span class="tag">&lt;h4&gt;</span>Ordered List (Numbered)<span class="tag">&lt;/h4&gt;</span><br>
+                        <span class="tag">&lt;ol&gt;</span><br>
+                        &nbsp;&nbsp;<span class="tag">&lt;li&gt;</span>First item<span class="tag">&lt;/li&gt;</span><br>
+                        &nbsp;&nbsp;<span class="tag">&lt;li&gt;</span>Second item<span class="tag">&lt;/li&gt;</span><br>
+                        &nbsp;&nbsp;<span class="tag">&lt;li&gt;</span>Third item<span class="tag">&lt;/li&gt;</span><br>
+                        <span class="tag">&lt;/ol&gt;</span>
+                    </div>
+                </section>
+                
+                <section id="tables">
+                    <h2>Tables</h2>
+                    <p>Tables are used to organize data in rows and columns:</p>
+                    
+                    <div class="demo-box">
+                        <table>
+                            <tr>
+                                <th>Tag</th>
+                                <th>Description</th>
+                            </tr>
+                            <tr>
+                                <td>&lt;table&gt;</td>
+                                <td>Defines a table</td>
+                            </tr>
+                            <tr>
+                                <td>&lt;tr&gt;</td>
+                                <td>Defines a table row</td>
+                            </tr>
+                            <tr>
+                                <td>&lt;th&gt;</td>
+                                <td>Defines a table header</td>
+                            </tr>
+                            <tr>
+                                <td>&lt;td&gt;</td>
+                                <td>Defines a table cell</td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+                    <div class="code-example">
+                        <span class="tag">&lt;table&gt;</span><br>
+                        &nbsp;&nbsp;<span class="tag">&lt;tr&gt;</span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="tag">&lt;th&gt;</span>Tag<span class="tag">&lt;/th&gt;</span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="tag">&lt;th&gt;</span>Description<span class="tag">&lt;/th&gt;</span><br>
+                        &nbsp;&nbsp;<span class="tag">&lt;/tr&gt;</span><br>
+                        &nbsp;&nbsp;<span class="tag">&lt;tr&gt;</span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="tag">&lt;td&gt;</span><span class="tag">&amp;lt;</span>table<span class="tag">&amp;gt;</span><span class="tag">&lt;/td&gt;</span><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="tag">&lt;td&gt;</span>Defines a table<span class="tag">&lt;/td&gt;</span><br>
+                        &nbsp;&nbsp;<span class="tag">&lt;/tr&gt;</span><br>
+                        <span class="comment">&lt;!-- More rows would go here --&gt;</span><br>
+                        <span class="tag">&lt;/table&gt;</span>
+                    </div>
+                </section>
+                
+                <section id="forms">
+                    <h2>Forms</h2>
+                    <p>Forms are used to collect user input:</p>
+                    
+                    <div class="demo-box">
+                        <form>
+                            <label for="fname">First Name:</label>
+                            <input type="text" id="fname" name="fname" placeholder="Your first name">
+                            
+                            <label for="lname">Last Name:</label>
+                            <input type="text" id="lname" name="lname" placeholder="Your last name">
+                            
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Your email">
+                            
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" placeholder="Your message"></textarea>
+                            
+                            <button type="submit"><i class="fas fa-paper-plane"></i> Submit</button>
+                        </form>
+                    </div>
+                    
+                    <div class="code-example">
+                        <span class="tag">&lt;form&gt;</span><br>
+                        &nbsp;&nbsp;<span class="tag">&lt;label </span><span class="attribute">for=</span><span class="value">"fname"</span><span class="tag">&gt;</span>First Name:<span class="tag">&lt;/label&gt;</span><br>
+                        &nbsp;&nbsp;<span class="tag">&lt;input </span><span class="attribute">type=</span><span class="value">"text"</span> <span class="attribute">id=</span><span class="value">"fname"</span> <span class="attribute">name=</span><span class="value">"fname"</span> <span class="attribute">placeholder=</span><span class="value">"Your first name"</span><span class="tag">&gt;</span><br>
+                        <br>
+                        &nbsp;&nbsp;<span class="tag">&lt;label </span><span class="attribute">for=</span><span class="value">"lname"</span><span class="tag">&gt;</span>Last Name:<span class="tag">&lt;/label&gt;</span><br>
+                        &nbsp;&nbsp;<span class="tag">&lt;input </span><span class="attribute">type=</span><span class="value">"text"</span> <span class="attribute">id=</span><span class="value">"lname"</span> <span class="attribute">name=</span><span class="value">"lname"</span> <span class="attribute">placeholder=</span><span class="value">"Your last name"</span><span class="tag">&gt;</span><br>
+                        <br>
+                        &nbsp;&nbsp;<span class="tag">&lt;label </span><span class="attribute">for=</span><span class="value">"email"</span><span class="tag">&gt;</span>Email:<span class="tag">&lt;/label&gt;</span><br>
+                        &nbsp;&nbsp;<span class="tag">&lt;input </span><span class="attribute">type=</span><span class="value">"email"</span> <span class="attribute">id=</span><span class="value">"email"</span> <span class="attribute">name=</span><span class="value">"email"</span> <span class="attribute">placeholder=</span><span class="value">"Your email"</span><span class="tag">&gt;</span><br>
+                        <br>
+                        &nbsp;&nbsp;<span class="tag">&lt;label </span><span class="attribute">for=</span><span class="value">"message"</span><span class="tag">&gt;</span>Message:<span class="tag">&lt;/label&gt;</span><br>
+                        &nbsp;&nbsp;<span class="tag">&lt;textarea </span><span class="attribute">id=</span><span class="value">"message"</span> <span class="attribute">name=</span><span class="value">"message"</span> <span class="attribute">placeholder=</span><span class="value">"Your message"</span><span class="tag">&gt;</span><span class="tag">&lt;/textarea&gt;</span><br>
+                        <br>
+                        &nbsp;&nbsp;<span class="tag">&lt;button </span><span class="attribute">type=</span><span class="value">"submit"</span><span class="tag">&gt;</span>Submit<span class="tag">&lt;/button&gt;</span><br>
+                        <span class="tag">&lt;/form&gt;</span>
+                    </div>
+                </section>
+            </main>
+
+            <aside>
+                <h3><i class="fas fa-graduation-cap"></i> Next Steps</h3>
+                <p>After learning HTML basics, consider:</p>
+                <ul>
+                    <li>Learning CSS for styling</li>
+                    <li>Learning JavaScript for interactivity</li>
+                    <li>Practicing by building simple websites</li>
+                    <li>Exploring responsive web design</li>
+                </ul>
+                
+                <h3><i class="fas fa-book-open"></i> Resources</h3>
+                <ul class="resources-list">
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><i class="fas fa-external-link-alt"></i> MDN HTML Reference</a></li>
+                    <li><a href="https://www.w3schools.com/html/" target="_blank"><i class="fas fa-external-link-alt"></i> W3Schools HTML Tutorial</a></li>
+                    <li><a href="https://html.com/" target="_blank"><i class="fas fa-external-link-alt"></i> HTML.com Beginner's Guide</a></li>
+                    <li><a href="https://web.dev/learn/html/" target="_blank"><i class="fas fa-external-link-alt"></i> web.dev HTML Course</a></li>
+                </ul>
+                
+                <h3><i class="fas fa-tips"></i> Practice Tips</h3>
+                <ul>
+                    <li>Code along with tutorials</li>
+                    <li>Experiment with changing code</li>
+                    <li>View page source on websites you like</li>
+                    <li>Use browser developer tools</li>
+                    <li>Build small projects regularly</li>
+                </ul>
+                
+                <div class="info-card">
+                    <h4><i class="fas fa-flask"></i> Try It Yourself</h4>
+                    <p>The best way to learn HTML is by doing! Create a simple .html file and start coding. Use a text editor like VSCode, Sublime Text, or even Notepad.</p>
+                </div>
+            </aside>
+        </div>
+
+        <footer>
+            <p>HTML & CSS Tutorial - Designed for beginners</p>
+            <p class="presenter-footer">Presented by Julian Dave Recato</p>
+            <p>Note: This is a static example page. To practice, create your own HTML file and try writing code.</p>
+        </footer>
+    </div>
+
+    <!-- Back to Top Button -->
+    <a href="#top" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script>
+        // Back to Top Button functionality
+        const backToTopButton = document.getElementById("backToTop");
+        
+        window.addEventListener("scroll", () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.add("visible");
+            } else {
+                backToTopButton.classList.remove("visible");
+            }
+        });
+        
+        backToTopButton.addEventListener("click", (e) => {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
+</body>
+</html>
